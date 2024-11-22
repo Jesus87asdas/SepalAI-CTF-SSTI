@@ -1,0 +1,2 @@
+flag{SepalAI_SSTI_Challenge_R3m0t3_C0de_3x3c}
+

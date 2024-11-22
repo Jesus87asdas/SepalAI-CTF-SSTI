@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ssti-challenge:
+    build: .
+    container_name: ssti-challenge
+    ports:
+      - "8080:80"
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+
